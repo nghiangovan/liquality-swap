@@ -1,0 +1,14 @@
+@import '../../scss/variables.scss';
+
+.Waiting {
+  text-align: center;
+
+  &_quoteTimer {
+    padding: 14px;
+  }
+
+  &_status {
+    margin: 30px 30px 80px 30px;
+    font-size: $h4-font-size;
+  }
+}

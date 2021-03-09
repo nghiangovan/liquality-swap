@@ -1,0 +1,12 @@
+@import 'scss/variables.scss';
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}

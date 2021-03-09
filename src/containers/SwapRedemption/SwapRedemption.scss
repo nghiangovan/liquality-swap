@@ -1,0 +1,25 @@
+@import '../../scss/variables.scss';
+@import '../../scss/mixins.scss';
+
+.SwapRedemption {
+  text-align: center;
+
+  &_terms {
+    font-size: $h3-font-size;
+    margin: 50px 0 60px 0;
+  }
+
+  &_info {
+    width: 600px;
+    margin: 0 auto 30px auto;
+    text-align: left;
+  }
+
+  &_errorMessage {
+    @include error-message;
+  }
+
+  .ExpirationDetails {
+    margin-bottom: 30px;
+  }
+}

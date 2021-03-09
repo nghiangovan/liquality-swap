@@ -1,0 +1,27 @@
+@import '../../scss/variables.scss';
+
+.CurrencyInputs {
+  position: relative;
+  $panel-spacing: 30px;
+  width: 100%;
+
+  &_left {
+    margin-left: $panel-spacing;
+  }
+
+  &_right {
+    margin-right: $panel-spacing;
+    .CurrencyInput {
+      float: right;
+    }
+  }
+
+  .Rate {
+    position: absolute;
+    margin: 0 auto;
+    bottom: -112px;
+    left: 0;
+    right: 0;
+    z-index: $layer-bottom;
+  }
+}

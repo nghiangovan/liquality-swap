@@ -1,0 +1,40 @@
+@import '../../scss/variables.scss';
+
+.WalletChoose {
+  text-align: center;
+  padding: 15px;
+
+  h1 {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #747E8D; // TODO: use sass vars
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  &_WalletsContainer {
+    border-radius: 10px;
+    background-color: $color-bg-secondary;
+    padding: 10px;
+    margin: 10px 5px 20px;
+  }
+
+  &_wallet {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #f1f0f9;
+    }
+
+    &_image {
+      margin-right: 15px;
+      width: 20px;
+    }
+  }
+}
